@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gameCanvas{
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    background-color:rgb(21, 33, 1);
+    .creepster-regular {
+        font-family: "Creepster", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+}
+
+#gameText{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:darkslateblue;
+    font-size: 60px;
+    font-family: "Creepster", system-ui !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#gameInfo {
+    position: absolute;
+    top: 18%; 
+    right: 72%; 
+    width: 450px; 
+    padding: 60px;
+    background: rgba(86, 198, 239, 0.7); 
+    color: rgb(7, 32, 70);
+    font-family:'Creepster', system-ui;
+    border-radius: 10px; 
+    z-index: 10; 
+  }
+
+#joueur,#layer1,#layer2,#layer3,#layer4,#layer5,#enemy_fly,#enemy_plant,#enemy_spider_big,#feu,#collisionAnimation, #vies{
+    display: none;
+}
